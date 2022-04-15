@@ -1,0 +1,276 @@
+@media screen and (min-width: 768px) {
+  * .br-sp {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  * body {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  .color-title {
+    padding: initial;
+    text-align: center;
+  }
+
+  .sub-title {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .section-text {
+    text-align: center;
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
+
+  .submit {
+    padding: initial;
+    padding: 5px 30px;
+    margin: initial;
+    margin-left: 190px;
+  }
+
+
+  /* ----------------------------------------
+  top-wrapper
+  --------------------------------------------*/
+
+  .top-wrapper {
+    display: block;
+    height: 200px;
+    width: 100%;
+  }
+
+  .top-wrapper h1 {
+    width: 100%;
+    font-size: 15px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .top-wrapper p {
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  /* ----------------------------------------
+  header
+  -------------------------------------------*/
+  #header {
+    display: block;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .site-title img {
+    display: none;
+  }
+
+  .header-list ul {
+    text-align: center;
+    float: right;
+    padding-right: 90px;
+  }
+
+  .header-list li a {
+    margin: initial;
+    margin-left: 30px;
+  }
+
+  /* --------------------------------------------
+  slide-img 
+  ---------------------------------------------*/
+  .slide-img {
+    height: 100px;
+    width: 150px;
+  }
+
+  /* --------------------------------------------
+  course
+  ------------------------------------------------*/
+  .course-top-txt {
+    font-size: 10px;
+    text-align: center;
+    margin: initial;
+    margin-bottom: 30px;
+  }
+
+  .course-content {
+    display: block;
+  }
+
+  .course-content img {
+    width: 480px;
+  }
+
+  .course-text {
+    font-size: 8px;
+    text-align: center;
+    margin-left: 140px;
+  }
+
+  .course-text div {
+    margin: initial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* ----------------------------------------------
+  news
+  -----------------------------------------------*/
+  .news-list ul {
+    display: block;
+  }
+
+  .news-list img {
+    width: 480px;
+  }
+
+  .news-list .date {
+    font-size: 8px;
+    padding: initial;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  .news-list li {
+    margin-bottom: 30px;
+  }
+
+  .news-list p {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  /* --------------------------------------------
+  access
+  ----------------------------------------------*/
+  iframe {
+    width: 480px;
+    height: 150px;
+  }
+
+  .access-list {
+    padding: initial;
+    padding: 30px 0;
+  }
+
+  .table-list,
+  .table-list th,
+  .table-list td {
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .table-list th {
+    display: block;
+  }
+
+  .table-list td {
+    display: block;
+    text-align: center;
+  }
+
+
+  /* --------------------------------------------
+  contact
+  ----------------------------------------------*/
+  .contact-table,
+  .contact-table th,
+  .contact-table td {
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .contact-table th {
+    display: block;
+  }
+
+  .contact-table td {
+    display: block;
+  }
+
+  .contact-form {
+    margin: initial;
+    padding: initial;
+    font-size: 5px;
+  }
+
+  .contact-item,
+  .contact-body {
+    padding: initial;
+  }
+
+  .contact-body {
+    margin-bottom: 20px;
+  }
+
+  .form-text {
+    width: 150px;
+    height: 20px;
+    padding: initial;
+    padding: 5px 20px;
+  }
+
+  .contact-check {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 170px;
+
+  }
+
+  .contact-check+.contact-check {
+    margin: initial;
+  }
+
+  .form-textarea {
+    height: 50px;
+    width: 150px;
+  }
+
+  /* ---------------------------------------------
+  question
+  -----------------------------------------------*/
+  .question {
+    display: none;
+  }
+
+  .cp_qa *,
+  .cp_qa *:after,
+  .cp_qa *:before {
+    display: none;
+  }
+
+  /* -------------------------------------------
+  light
+  -----------------------------------------------*/
+  .light {
+    display: none;
+  }
+
+  /* button { */
+  /* display: none; */
+  /* } */
+
+  /* ---------------------------------------------
+  
+  footer
+  -----------------------------------------------*/
+  footer {
+    font-size: 10px;
+  }
+}
