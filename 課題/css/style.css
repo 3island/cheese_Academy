@@ -93,7 +93,7 @@ img {
                     TOP-WRAPPER
 -------------------------------------------------*/
 .top-wrapper {
-	background-image: url(/img/mainbg.png);
+	background-image: url(/課題/img/mainbg.png);
 	background-size: cover;
 	height: 400px;
 	display: flex;
